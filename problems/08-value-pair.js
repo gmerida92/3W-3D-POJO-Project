@@ -11,8 +11,27 @@ valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
 ***********************************************************************/
 
 function valuePair(obj1, obj2, key) {
-  // your code here
+  let newArray = [obj1[key], obj2[key]];
+  // if (key in obj1)
+  // {
+  //   newArray.push(obj1[key])
+  // }
+
+  // if (key in obj2)
+  // {
+  //   newArray.push(obj2[key])
+  // }
+
+  return newArray;
 }
+
+// let object1 = {name: 'One', location: 'NY', age: 3};
+// let object2 = {name: 'Two', location: 'SF'};
+// valuePair(object1, object2, 'location'); // => [ 'NY', 'SF' ]
+// valuePair(object1, object2, 'name'); // => [ 'One', 'Two' ]
+
+// console.log(valuePair(object1, object2, 'name'));
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = valuePair;
