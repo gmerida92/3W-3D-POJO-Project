@@ -25,6 +25,15 @@ function valuePair(obj1, obj2, key) {
   return newArray;
 }
 
+// function valuePair(obj1, obj2, key) {
+//   let val1 = obj1[key];
+//   let val2 = obj2[key];
+//   let arr = [val1, val2];
+
+//   return arr;
+// }
+
+
 // let object1 = {name: 'One', location: 'NY', age: 3};
 // let object2 = {name: 'Two', location: 'SF'};
 // valuePair(object1, object2, 'location'); // => [ 'NY', 'SF' ]
