@@ -26,7 +26,6 @@ function arrayConverter(array) {
   }
   return arrayObject;
 }
-}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = arrayConverter;
